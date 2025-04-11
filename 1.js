@@ -51,9 +51,45 @@
 // doingStuff("12345")
 // const arr=["squirrel","alpaca","buddy"];
 // arr.forEach(e=>console.log(e));
-let spread=["so","much","fun"];
-let message=["JavaScript","is",...spread,"and","very","powerful"];
-let message1=["JavaScript","is",spread,"and","very","powerful"];
-console.log(message);
-console.log(message1);
-
+// let spread=["so","much","fun"];
+// let message=["JavaScript","is",...spread,"and","very","powerful"];
+// let message1=["JavaScript","is",spread,"and","very","powerful"];
+// console.log(message);
+// console.log(message1);
+// function addTwoNUmber(x,y){
+//     console.log(x+y);
+// }
+// let arr=[5,9];
+// addTwoNUmber(...arr);
+// function addFourNumbers(x,y,z,a){
+//     console.log(x+y+z+a);
+// }
+// let arr=[5,9];
+// let arr2=[6,7];
+// addFourNumbers(...arr,...arr2);
+// let arr=[5,9];
+// addTwoNUmber(...arr);
+// someFunction("Hi","There","How are you");
+function addTwoNumbers(a,b){
+    return a+b;
+}
+let resultArr=[4,5];
+for(let i=0; i<10; i++){
+    let result=addTwoNumbers(i,2*i);
+    resultArr.push(result);
+}
+console.log(resultArr)
+function textAvailability(){
+    let y = "Local Variable":
+    console.log("Available here:", y);
+    doingStuff()
+    function.doingstuff(){
+        if (true){
+            console.log(x)
+    
+        }
+        let globalVar = "Accessible everywhere"!:
+        console.log("Outside function")
+    }
+    
+}
